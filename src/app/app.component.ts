@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
+import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
+import { NgbdModalBasic } from './modal-basic';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'test1';
+  
+  title = 'app';
+  isValidWhenClick=false;
+  contract_table(){
+    this.isValidWhenClick=true;
+  }
+  out_table(){
+    this.isValidWhenClick=false;
+  }
+
+
 }

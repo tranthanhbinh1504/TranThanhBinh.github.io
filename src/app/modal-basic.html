@@ -1,0 +1,33 @@
+<ng-template #content let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Meet us</h4>
+      <br/>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <div>
+        <img src='assets\popup-info.png'>
+      </div>
+    </div>
+    <div class="modal-body">
+      <form>
+        <input id="typeahead-http" type="text"  placeholder="Your Name" size="60"/><br/>
+        <br/>
+        <input id="typeahead-http" type="text"  placeholder="Your Mail" size="60"/><br/>
+        <br/>
+        <input id="typeahead-http" type="text"  placeholder="Your Phone" size="60"/><br/>
+        <br/>
+        <input id="typeahead-http" type="text"  placeholder="Your Message" size="60"/>
+      </form>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" >Send</button>
+      </div>
+
+  </ng-template>
+  
+  <button class="btn btn-lg btn-outline-primary" (click)="open(content)">CONTRACT US</button>
+  
+  <hr>
+  
+  <pre>{{closeResult}}</pre>

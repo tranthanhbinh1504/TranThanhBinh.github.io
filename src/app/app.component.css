@@ -1,0 +1,49 @@
+.Header{
+    position: absolute;
+    color :#ec1c24;
+    font-size:20px;
+    margin-top:30px;
+    margin-left:100px;
+}
+.logo{
+    position: absolute;
+    margin-left: 120px;     
+    margin-top: 170px;
+}
+.content{
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 200px;
+    font-size: 15px;
+    font-family: Monst-SB;
+    line-height: 1.4;
+}
+.CEOname{
+    color: #08154f;
+}
+.CEOcontent{
+    color: #08154f;
+}
+.button{
+    position: absolute;
+    margin-left:630px;
+    margin-top:500px;
+    color: #ec1c24;
+    border-radius: 16px;
+}
+.informationContract{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-left :260px; 
+    margin-top : 50px;
+    border: 1px solid blue;
+    display : block;
+}
+.outbutton{
+    margin-left: 700px;
+    margin-top :-100px;
+}
+.footer{
+    background-color: #ec1c24;
+}
